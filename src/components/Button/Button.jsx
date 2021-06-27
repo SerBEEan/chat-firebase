@@ -1,16 +1,9 @@
 import classes from './Button.module.css'
 
-export const Button = ({ handleChangeInput }) => {
-    
-    const clickButton = () => {
-        //TODO
-
-        handleChangeInput('');
-    }
-
+export const Button = () => {
     return (
         <div className={ classes.root }>
-            <button onClick={ clickButton }>Отправить</button>
+            <button type="submit">Отправить</button>
         </div>
     );
 

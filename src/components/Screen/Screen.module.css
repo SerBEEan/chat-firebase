@@ -4,9 +4,9 @@
     border-radius: 15px;
     height: 400px;
     overflow: auto;
+    padding: 5px 20px;
 }
 
 .message {
     margin-top: 5px;
-    margin-left: 20px;
 }
