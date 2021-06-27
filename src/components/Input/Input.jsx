@@ -1,5 +1,18 @@
 import classes from './Input.module.css'
 
+/**
+ * Тип для функции handleChangeInput
+ * @callback THandleChangeInput
+ * @param {string} newValue - новое значение поля ввода
+ * @returns {void}
+ */
+
+/**
+ * Компонент поля ввода
+ * @param {Object} props - пропсы компонента
+ * @param {string} props.value - значение поля ввода
+ * @param {THandleChangeInput} props.handleChangeInput - обработчик onChange
+ */
 export const Input = ({ value, handleChangeInput }) => {
     return (
         <div className={ classes.root }>
@@ -12,3 +25,5 @@ export const Input = ({ value, handleChangeInput }) => {
         </div>
     );
 }
+
+// @param {{value: string, handleChangeInput}} props -  

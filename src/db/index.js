@@ -1,5 +1,11 @@
+/** @module db */
+
 import firebase from 'firebase';
 
+/**
+ * Конфиг для подключения к firebase
+ * @constant
+ */
 const firebaseConfig = {
     apiKey: "AIzaSyBWF1MeJo9tfyYyaO-GrtSWWEsIY9WJMOw",
     authDomain: "chat-firebase-76ad4.firebaseapp.com",
@@ -12,4 +18,8 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
+/**
+ * Объект - ссылка на БД
+ * @constant
+ */
 export const db = firebase.database();
