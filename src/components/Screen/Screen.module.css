@@ -1,0 +1,12 @@
+.root {
+    background-color: rgb(233, 229, 229);
+    border: 2px solid grey;
+    border-radius: 15px;
+    height: 400px;
+    overflow: auto;
+}
+
+.message {
+    margin-top: 5px;
+    margin-left: 20px;
+}
