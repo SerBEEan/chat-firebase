@@ -1,11 +1,11 @@
 # Чат на React + Firebase
 Онлайн чат в реальном времени.
-Frontend -- React.
-Backend -- Firebase Realtime Database.
-Хостинг -- Firebase Hosting
+
+[Demo](https://chat-firebase-76ad4.web.app/)
 
 ## Preview
 ![Страница приложения](./public/preview.png)
 
+## Stack
+React, Firebase Database + Hosting
 
-## [Ссылка на приложение](https://chat-firebase-76ad4.web.app/)
